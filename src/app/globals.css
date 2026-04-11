@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neural-bg: #030014;
+  --color-neural-surface: #0f0f23;
+  --color-neural-card: #1a1a2e;
+  --color-neural-border: #16213e;
+  --color-neural-cyan: #00d4ff;
+  --color-neural-purple: #7c3aed;
+  --color-neural-pink: #f472b6;
+  --color-neural-green: #34d399;
+  --color-neural-amber: #fbbf24;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --animate-glow: glow 2s ease-in-out infinite alternate;
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 10px -2px var(--color-neural-cyan);
+    }
+    to {
+      box-shadow: 0 0 20px 2px var(--color-neural-cyan);
+    }
+  }
+}
+
+:root {
+  --background: #030014;
+  --foreground: #ffffff;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+.glass {
+  background: rgba(15, 15, 35, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(22, 33, 62, 0.5);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+}
+
+.glow-purple {
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.3);
+}
+
+.neural-gradient {
+  background: radial-gradient(circle at top left, #0f0f23 0%, #030014 100%);
+}

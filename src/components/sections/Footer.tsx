@@ -24,9 +24,12 @@ export default function Footer() {
           © {new Date().getFullYear()} {personalInfo.name}. All rights reserved.
         </p>
 
-        <p className="flex items-center gap-2 text-[10px] font-mono uppercase tracking-[0.2em] text-white/20">
+        <p className="flex items-center gap-2 text-[10px] font-mono uppercase tracking-[0.2em] text-white/20 mb-2">
           Built with <Heart size={10} className="text-neural-pink fill-neural-pink" /> 
           by <a href="https://www.intelliforge.tech/" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-neural-cyan transition-colors underline decoration-neural-cyan/20">IntelliForge AI</a>
+        </p>
+        <p className="text-[10px] font-mono uppercase tracking-[0.2em] text-white/20">
+          Want a profile like this? <a href="https://chat.whatsapp.com/LDqzLHYMlhg9GiO0yRrUOS?mode=gi_t" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-neural-purple transition-colors underline decoration-neural-purple/20">Join our WhatsApp group</a>
         </p>
       </div>
     </footer>

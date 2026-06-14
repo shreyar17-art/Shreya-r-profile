@@ -13,23 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shreya R | Software Engineer Portfolio",
-  description: "AI-powered interactive portfolio of Shreya R, a Software Engineer specializing in Full-Stack development, Cloud Infrastructure, and AI Code Evaluation.",
-  keywords: ["Software Engineer", "AI Code Evaluation", "Full-Stack Developer", "Cloud Infrastructure", "Shreya R", "IntelliForge AI"],
-  authors: [{ name: "Shreya R" }],
+  title: "Shreya Rajasekar (Shreya R) | Certified AI Code Reviewer & Evaluator Portfolio",
+  description: "AI-powered interactive portfolio of Shreya Rajasekar (Shreya R), a Certified AI Code Reviewer and Software Engineering Evaluator specializing in LLM Benchmarking, RLHF, and Security Auditing.",
+  keywords: ["AI Code Reviewer", "Software Engineering Evaluator", "LLM Benchmarking", "RLHF Preference Labeling", "OWASP Top 10 Security", "Airdawg Labs", "Shreya Rajasekar", "Shreya R", "IntelliForge AI"],
+  authors: [{ name: "Shreya Rajasekar (Shreya R)" }],
   metadataBase: new URL("https://shreya-r-profile.vercel.app"),
   openGraph: {
-    title: "Shreya R | Software Engineer Portfolio",
-    description: "AI-powered interactive portfolio of Shreya R, a Software Engineer specializing in Full-Stack development, Cloud Infrastructure, and AI Code Evaluation.",
+    title: "Shreya Rajasekar (Shreya R) | Certified AI Code Reviewer Portfolio",
+    description: "Explore the portfolio of Shreya Rajasekar, specializing in LLM benchmarking, security auditing, and RLHF evaluation.",
     url: "https://shreya-r-profile.vercel.app",
-    siteName: "Shreya R Portfolio",
+    siteName: "Shreya Rajasekar Portfolio",
     images: [{ url: "/api/og" }],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shreya R | Software Engineer Portfolio",
-    description: "AI-powered interactive portfolio of Shreya R.",
+    title: "Shreya Rajasekar (Shreya R) | Certified AI Code Reviewer & Evaluator",
+    description: "AI-powered interactive portfolio of Shreya Rajasekar (Shreya R).",
     images: ["/api/og"],
   },
 };

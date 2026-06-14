@@ -59,7 +59,7 @@ export async function GET() {
               gap: "20px",
             }}
           >
-             {["AI Benchmarking", "Code Evaluation", "Security Auditing"].map((tag) => (
+             {["RLHF Evaluation", "Polyglot Engineering", "Security Auditing"].map((tag) => (
                 <div
                   key={tag}
                   style={{

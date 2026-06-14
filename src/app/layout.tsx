@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Shreya Rajasekar (Shreya R) | Certified AI Code Reviewer & Evaluator Portfolio",
   description: "AI-powered interactive portfolio of Shreya Rajasekar (Shreya R), a Certified AI Code Reviewer and Software Engineering Evaluator specializing in LLM Benchmarking, RLHF, and Security Auditing.",
-  keywords: ["AI Code Reviewer", "Software Engineering Evaluator", "LLM Benchmarking", "RLHF Preference Labeling", "OWASP Top 10 Security", "Airdawg Labs", "Shreya Rajasekar", "Shreya R", "IntelliForge AI"],
+  keywords: ["AI Code Reviewer", "Software Engineering Evaluator", "LLM Benchmarking", "RLHF Preference Labeling", "OWASP Top 10 Security", "CAUDAL", "Shreya Rajasekar", "Shreya R", "IntelliForge AI"],
   authors: [{ name: "Shreya Rajasekar (Shreya R)" }],
   metadataBase: new URL("https://shreya-r-profile.vercel.app"),
   openGraph: {
